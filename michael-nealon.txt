@@ -2,26 +2,26 @@ Link to codepen Project:
 https://codepen.io/chisao101/pen/YzGdxrY
 
 1. What is Semantic HTML? 
-    Semantic HTML tag clearly describes its meaning to the browser and developer.
+    Semantic HTML tag clearly describes its meaning to the browser and developer, as well as screen readers for accessibility.
 2. What is HTML used for?
-    Accessibility, screen readers, makes code eassier to understand.
+    HTML is used to display content through a browser and to build the basic structure or foundation of a website.
 3. What is an attribute and where do we put it? 
-    Attributes provide additional information about elements
+    Attributes allow you to provide additional information about elements
     Attributes are always specified in the start tag
 4. What is the h1 tag used for? How many times should I use it on a page?
-    h1 tag is a level 1 heading, usually used for page title 
+    h1 tag is a level 1 heading, usually used for page title or headline
     only 1 h1 tag should be used per page
-5. Name two tags that have required attributes
-    a tag
-    img tag 
+5. Name two tags that have required attributes.
+    a (anchor) tag
+    img (image) tag 
 6. What do we put in the head of our HTML document? 
-    Head tag contains metadata like page title, doctype, links to stylesheets 
+    Head tag contains metadata, like the page title, a doctype declaration, and links to stylesheets.
 7. What is an id? 
     id attribute specifies a unique id for an html element
 8. What elements can I add an id to? 
     any element within the body tag
 9. How many times can I use the same id on a page? 
-    once
+    an id can only be used once on a page
 10. What is a class? 
     specifies a class for html element
 11. What elements can I add a class to?
@@ -29,16 +29,16 @@ https://codepen.io/chisao101/pen/YzGdxrY
 12. How many times can I use the same class on a page?
     any number of elements can have the same class assigned
 13. How do I get my link to open in a new tab?
-    target="_blank"
+    <a href="yoursite.com" target="_blank">Click Me</a>
 14. What is the alt attribute in the image tag used for?
     defines alternate text to display if image does not load
 15. How do I reference an id?
     id is referenced using the # symbol
 16. What is the difference between a section and a div?
     section usually contains content that should be grouped together
-    div makes no distinction for content grouping
+    div makes no distinction for content grouping and is not a semantic element
 17. What is CSS used for? 
-    css is used to apply styles to html 
+    css is used to apply style rules to html 
 18. How to we select an element? Example - every h2 on the page
     h2{styles go here}
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
